@@ -1,0 +1,19 @@
+/* Styling for questions */
+
+.count {
+  color: blue;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+h3 {
+  color: blue;
+}
+
+input {
+  padding: 10px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+}
+
+/* Media queries */

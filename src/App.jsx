@@ -1,12 +1,13 @@
 import { Header } from "./components/Header";
 import { Form } from "./components/Form";
 
-
 export const App = () => {
-  return  (
-    <div>
+  return (
+    <>
       <Header />
-      <Form />
-   </div>
-  )
+      <main>
+        <Form />
+      </main>
+    </>
+  );
 };

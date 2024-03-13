@@ -1,0 +1,41 @@
+.form-container {
+  padding: 50px 0;
+}
+
+/* Styling for questions */
+.question-container {
+  max-width: 500px;
+  padding: 0 30px;
+  text-align: center;
+  margin: 80px auto;
+}
+
+.count {
+  color: var(--primary);
+  font-weight: 500;
+  font-size: 40px;
+}
+
+input {
+  padding: 20px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 6px;
+  width: 100%;
+}
+
+input[type="text"],
+input::placeholder {
+  font-size: 20px;
+}
+
+select {
+  font-size: 20px;
+  background-color: var(--white);
+  border: none;
+  width: 100%;
+  padding: 20px 20px;
+  border-radius: 6px;
+  border: 1px solid lightgrey;
+}
+
+/* Media queries */

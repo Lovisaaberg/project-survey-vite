@@ -13,7 +13,7 @@ export const Form = () => {
   //console.log(survey);
 
   return (
-    <form>
+    <form className="form-container">
       <QuestionOne />
       <QuestionTwo />
       <QuestionThree />

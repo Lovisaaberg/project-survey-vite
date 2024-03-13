@@ -5,7 +5,7 @@ export const QuestionTwo = () => {
   const [radioButton] = useState();
 
   return (
-    <div className="questionContainer">
+    <div className="question-container">
       <span className="count">2.</span>
       <h3>Does music make you happy?</h3>
       <label>
@@ -13,8 +13,9 @@ export const QuestionTwo = () => {
         <input
           type="radio"
           value="Yes"
-          onChange={(event) => event.target.value}
-          checked={"Yes"}
+          name="questionTwo"
+          // onChange={(event) => event.target.value}
+          // checked={"Yes"}
         />
       </label>
       <label>
@@ -22,8 +23,9 @@ export const QuestionTwo = () => {
         <input
           type="radio"
           value="No"
-          onChange={(event) => event.target.value}
-          checked={"NO"}
+          name="questionTwo"
+          // onChange={(event) => event.target.value}
+          // checked={"NO"}
         />
       </label>
     </div>

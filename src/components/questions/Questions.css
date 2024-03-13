@@ -1,4 +1,8 @@
 /* Styling for questions */
+.question-container {
+  margin: 70px auto;
+  text-align: center;
+}
 
 .count {
   color: blue;

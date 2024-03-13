@@ -22,6 +22,22 @@
           "label": "No, I like the silence"
         }
       ]
+    },
+    {
+      "id": 3,
+      "question": "What is your go-to happy song",
+      "name": "questionThree",
+      "placeholder": "",
+      "options": [
+        {
+          "value": "song1",
+          "label": "First option"
+        },
+        {
+          "value": "song2",
+          "label": "Second option"
+        }
+      ]
     }
   ]
 }

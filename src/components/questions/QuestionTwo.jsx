@@ -5,8 +5,9 @@ export const QuestionTwo = () => {
   const [radioButton] = useState();
 
   return (
-    <form>
-      Does music make you happy?
+    <div className="questionContainer">
+      <span className="count">2.</span>
+      <h3>Does music make you happy?</h3>
       <label>
         <p>Yes, absolutely</p>
         <input
@@ -25,6 +26,6 @@ export const QuestionTwo = () => {
           checked={"NO"}
         />
       </label>
-    </form>
+    </div>
   );
 };

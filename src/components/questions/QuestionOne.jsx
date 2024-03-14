@@ -5,11 +5,14 @@ export const QuestionOne = () => {
   const [value, setValue] = useState("");
   const [error, setErrorMessage] = useState("");
 
-  const handleValue = (inputValue) => {
+  const handleChange = (event) => {
     // Handle error message
-    console.log(inputValue);
+    console.log(event);
 
-    if (!inputValue) {
+    setValue (event.target.value);
+
+    // Om inget är ifyllt i inputfältet så visas meddelandet "Sorry but you need to add an activity"
+    if (!event.target.value) {
       setErrorMessage("Sorry but you need to add an activity");
     }
   };
@@ -23,8 +26,8 @@ export const QuestionOne = () => {
           type="text"
           name="questionOne"
           placeholder="Write your answer here..."
-          onClick={() => handleValue(value)}
-          onChange={(e) => setValue(e.target.value)}
+          value={value}
+          onChange={handleChange}
           required
         />
       </label>

@@ -10,8 +10,23 @@ export const Form = () => {
   // Save anwers
   const [answers, setAnswers] = useState({});
 
-  // Logga data
-  //console.log(survey);
+  // 1.
+  // Ta emot svar från varje Question komponent
+  // och lagra dessa i answers objektet
+  
+  /*
+  answers: 
+  {
+    "questionOne": "dansa",
+    "questionTwo": "true or false",
+    "questionThree": "option"
+  }
+  
+  */
+
+  // 2.
+  // Klicka på submit knappen och skicka
+  // alla svar till Summery komponeten
 
   return (
     <form className="form-container">

@@ -14,7 +14,7 @@ export const QuestionTwo = () => {
           type="radio"
           value="Yes"
           name="questionTwo"
-          // onChange={(event) => event.target.value}
+          //onChange={(event) => event.target.value}
           // checked={"Yes"}
         />
       </label>

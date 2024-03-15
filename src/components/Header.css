@@ -1,9 +1,14 @@
 header {
-  background-color: var(--primary);
   color: var(--white);
   height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+
+header h1, header h2 {
+  position: relative;
+  z-index: 10;
 }
